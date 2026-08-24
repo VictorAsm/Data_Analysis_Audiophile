@@ -61,7 +61,7 @@ jupyterlab_widgets==3.0.17
 kiwisolver==1.5.0
 lark==1.3.1
 MarkupSafe==3.0.3
-matplotlib==3.11.1
+matplotlib
 matplotlib-inline==0.2.2
 mistune==3.3.4
 narwhals==2.24.0
@@ -72,7 +72,6 @@ nest-asyncio==1.6.0
 nest-asyncio2==1.7.2
 notebook==7.6.2
 notebook_shim==0.2.4
-numpy==1.26.4
 packaging==26.3
 pandas==3.0.5
 pandocfilters==1.5.1
@@ -102,9 +101,9 @@ rfc3339-validator==0.1.4
 rfc3986-validator==0.1.1
 rfc3987-syntax==1.1.0
 rpds-py==2026.6.3
-scikit-learn==1.9.0
-scikit-learn-extra==0.3.0
-scipy==1.13.1
+scikit-learn
+scikit-learn-extra
+scipy
 seaborn==0.13.2
 Send2Trash==2.1.0
 setuptools==84.0.0
