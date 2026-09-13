@@ -6,7 +6,7 @@ A través del modelado matemático y un robusto diseño de información, demostr
 
 ---
 
-## 📐 Framework de Diseño de Información (Tamara Munzner)
+## Framework de Diseño de Información (Tamara Munzner)
 
 Para asegurar el rigor científico del proyecto, las visualizaciones fueron construidas bajo el framework de cinco niveles de Tamara Munzner:
 
@@ -34,7 +34,7 @@ Visualizaciones pensadas para **analistas de la industria musical, managers cult
 
 ---
 
-## 🎨 Galería de Casos de Estudio Reales Incorporados
+## Galería de Casos de Estudio Reales Incorporados
 
 El Jupyter Notebook cuenta con un análisis crítico-editorial apoyado por una galería interactiva en HTML que renderiza las portadas de los siguientes álbumes:
 
@@ -47,7 +47,7 @@ El Jupyter Notebook cuenta con un análisis crítico-editorial apoyado por una g
 
 ---
 
-## 📂 Catálogo de Visualizaciones Exportadas (`/plots`)
+## Catálogo de Visualizaciones Exportadas (`/plots`)
 
 Todos los gráficos dinámicos han sido exportados como archivos `.html` interactivos que conservan las animaciones, linked brushing y filtros al abrirse en cualquier navegador. Las gráficas estáticas se exportaron en `.png` de alta definición:
 
@@ -64,9 +64,21 @@ Todos los gráficos dinámicos han sido exportados como archivos `.html` interac
 
 ---
 
-## 🚀 Instrucciones de Ejecución
+## Instrucciones de Ejecución
 
 El repositorio incluye dos utilitarios de Python automatizados para reconstruir el entorno localmente de forma inmediata:
+* Crear un entorno virtual y dentro de el ejecutar el requirements.txt.
+```
+virtualenv venv
+
+source venv/bin/activate // En linux
+./venv/scrips/activate // En windows
+
+pip install -r requirements.txt
+```
+Desde alli, se puede correr el notebook. Los archivos de data deben estar en la carpeta data.
 
 Este proyecto fue desarrollado en el marco de la Winter School de Visual Analytics como trabajo final de graduación de excelencia técnica y teórica.
+
+Autor: Victor Manuel Asmad Murga.
 ***
